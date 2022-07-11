@@ -6,6 +6,8 @@
 
 Este é o repositório do serviço gerenciador de clientes da BHub.
 
+Swagger: https://beige-married-seabird.gigalixirapp.com/api/swagger
+
 # Pré-requisitos
 
 - Elixir 1.13.2
