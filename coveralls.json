@@ -1,0 +1,13 @@
+{
+  "minimum_coverage": 75,
+  "skip_files": [
+    "test/support/",
+    "lib/bhub_clients_web.ex",
+    "lib/bhub_clients.ex",
+    "lib/bhub_clients/application.ex",
+    "lib/bhub_clients/repo/filter.ex",
+    "lib/bhub_clients/release.ex",
+    "lib/bhub_clients_web/router.ex",
+    "lib/bhub_clients_web/telemetry.ex"
+  ]
+}
