@@ -6,11 +6,11 @@ defmodule BhubClientsWeb.ClientsController do
   alias BhubClients.Clients
   alias BhubClients.Data.Client
   alias BhubClients.Repo
+  alias BhubClientsWeb.FallbackController
   alias Repo.Clients, as: ClientsRepo
   alias Repo.Pagination
-  alias BhubClientsWeb.FallbackController
 
-  action_fallback FallbackController
+  action_fallback(FallbackController)
 
   swagger_path :index do
     get("/clients")
